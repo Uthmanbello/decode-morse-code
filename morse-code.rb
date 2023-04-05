@@ -75,5 +75,15 @@ def decode_char(code)
 end
 
 def decode_word(code_word)
-#   your code here please
-end  
+  english_word = ""
+  word = code_word.split
+  for letter in word
+    english_letter = decode_char(letter)
+    english_word.concat(english_letter)
+  end
+  puts english_word
+end
+
+def decode(code_sentence)
+  # please, write your code here
+end
