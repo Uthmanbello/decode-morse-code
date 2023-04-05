@@ -73,3 +73,7 @@ def decode_char(code)
     return 0
   end
 end
+
+def decode_word(code_word)
+#   your code here please
+end  
