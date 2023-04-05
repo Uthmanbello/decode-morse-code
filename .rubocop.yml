@@ -1,6 +1,4 @@
-# rubocop:disable all
-
-`AllCops:
+AllCops:
   NewCops: enable
   Exclude:
     - "Guardfile"
